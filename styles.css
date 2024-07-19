@@ -1,0 +1,153 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Changed font style */
+}
+
+/* Body and background */
+body {
+
+    background-size: cover;
+    color: #333;
+    line-height: 1.6; /* Slightly increased line height */
+    margin: 1.5cm 1.5cm 1.5cm 2cm; /* Adjusted margins */
+}
+
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px; /* Increased padding */
+}
+
+header h1 {
+    font-size: 28px; /* Increased font size */
+    color: green;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 20px; /* Increased margin */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 16px; /* Increased font size */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px; /* Increased padding */
+    margin-top: 25px; /* Increased margin-top */
+}
+
+main h2 {
+    font-size: 22px; /* Increased font size */
+    color: green;
+    margin-bottom: 15px; /* Increased margin-bottom */
+}
+
+main p, main ul {
+    font-size: 14px; /* Increased font size */
+    text-align: justify;
+}
+
+main ul {
+    list-style-type: disc;
+    margin-left: 25px; /* Increased margin-left */
+}
+
+main ol {
+    list-style-type: decimal;
+    margin-left: 25px; /* Increased margin-left */
+}
+
+.feature-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px; /* Increased margin-top */
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px; /* Increased padding */
+    width: 32%; /* Slightly increased width */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); /* Increased box-shadow */
+}
+
+.feature h3 {
+    font-size: 20px; /* Increased font size */
+    color: green;
+    margin-bottom: 15px; /* Increased margin-bottom */
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px; /* Increased margin-bottom */
+    color: green;
+    font-size: 16px; /* Increased font size */
+}
+
+form input, form textarea {
+    margin-bottom: 12px; /* Increased margin-bottom */
+    padding: 8px; /* Increased padding */
+    font-size: 14px; /* Increased font size */
+}
+
+form button {
+    padding: 12px; /* Increased padding */
+    font-size: 16px; /* Increased font size */
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px; /* Increased padding */
+    margin-top: 25px; /* Increased margin-top */
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 12px; /* Increased margin */
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 16px; /* Increased font size */
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
