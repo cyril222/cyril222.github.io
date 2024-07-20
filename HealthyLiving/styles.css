@@ -1,28 +1,34 @@
 /* Basic reset */
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif; /* Changed font style */
+    font-family: Arial, sans-serif; 
 }
 
 /* Body and background */
 body {
-
     background-size: cover;
     color: #333;
-    line-height: 1.6; /* Slightly increased line height */
-    margin: 1.5cm 1.5cm 1.5cm 2cm; /* Adjusted margins */
+    line-height: 1.6; 
+    margin: 1.5cm 1.5cm 1.5cm 2cm; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Header */
 header {
     background: rgba(255, 255, 255, 0.8);
-    padding: 15px; /* Increased padding */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 header h1 {
-    font-size: 28px; /* Increased font size */
+    font-size: 28px; 
     color: green;
     text-align: center;
 }
@@ -34,13 +40,13 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px; /* Increased margin */
+    margin: 0 20px; 
 }
 
 nav ul li a {
     text-decoration: none;
     color: green;
-    font-size: 16px; /* Increased font size */
+    font-size: 16px; 
 }
 
 nav ul li a:hover {
@@ -50,48 +56,53 @@ nav ul li a:hover {
 /* Main content */
 main {
     background: rgba(255, 255, 255, 0.8);
-    padding: 25px; /* Increased padding */
-    margin-top: 25px; /* Increased margin-top */
+    padding: 25px; 
+    margin-top: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 main h2 {
-    font-size: 22px; /* Increased font size */
+    font-size: 22px; 
     color: green;
-    margin-bottom: 15px; /* Increased margin-bottom */
+    margin-bottom: 15px; 
 }
 
 main p, main ul {
-    font-size: 14px; /* Increased font size */
+    font-size: 14px; 
     text-align: justify;
 }
 
 main ul {
     list-style-type: disc;
-    margin-left: 25px; /* Increased margin-left */
+    margin-left: 25px; 
 }
 
 main ol {
     list-style-type: decimal;
-    margin-left: 25px; /* Increased margin-left */
+    margin-left: 25px; 
 }
 
 .feature-box {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px; /* Increased margin-top */
+    margin-top: 25px; 
+    flex-wrap: wrap;
 }
 
 .feature {
     background: rgba(255, 255, 255, 0.9);
-    padding: 20px; /* Increased padding */
-    width: 32%; /* Slightly increased width */
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); /* Increased box-shadow */
+    padding: 20px; 
+    width: 32%; 
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 15px;
 }
 
 .feature h3 {
-    font-size: 20px; /* Increased font size */
+    font-size: 20px; 
     color: green;
-    margin-bottom: 15px; /* Increased margin-bottom */
+    margin-bottom: 15px; 
 }
 
 /* Forms */
@@ -101,20 +112,20 @@ form {
 }
 
 form label {
-    margin-bottom: 8px; /* Increased margin-bottom */
+    margin-bottom: 8px; 
     color: green;
-    font-size: 16px; /* Increased font size */
+    font-size: 16px; 
 }
 
 form input, form textarea {
-    margin-bottom: 12px; /* Increased margin-bottom */
-    padding: 8px; /* Increased padding */
-    font-size: 14px; /* Increased font size */
+    margin-bottom: 12px; 
+    padding: 8px; 
+    font-size: 14px; 
 }
 
 form button {
-    padding: 12px; /* Increased padding */
-    font-size: 16px; /* Increased font size */
+    padding: 12px; 
+    font-size: 16px;
     background-color: green;
     color: white;
     border: none;
@@ -128,9 +139,13 @@ form button:hover {
 /* Footer */
 footer {
     background: rgba(255, 255, 255, 0.8);
-    padding: 15px; /* Increased padding */
-    margin-top: 25px; /* Increased margin-top */
+    padding: 15px; 
+    margin-top: 25px; 
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer nav ul {
@@ -139,13 +154,13 @@ footer nav ul {
 }
 
 footer nav ul li {
-    margin: 0 12px; /* Increased margin */
+    margin: 0 12px; 
 }
 
 footer nav ul li a {
     text-decoration: none;
     color: green;
-    font-size: 16px; /* Increased font size */
+    font-size: 16px; 
 }
 
 footer nav ul li a:hover {
